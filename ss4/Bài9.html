@@ -1,27 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Tìm Kiếm Sản Phẩm</h1>
-    <label for="keyword">Từ khóa tìm kiếm:</label>
-    <br />
-    <input type="search" name="keyword">
-    <br />
-    <label for="producttype">Loại sản phẩm:</label>
-    <br />
-    <select name="producttype" id="producttype">
-        <option value="dt">Điện tử</option>
-        <option value="food">Thực phẩm</option>
-        <option value="vd">Vật dụng gia đình</option>
-        <option value="mp">Mỹ phẩm</option>
-        <option value="qh">Quần áo</option>
-    </select>
-    <br />
-    <br />
-    <button>Tìm kiếm</button>
-</body>
+  </head>
+  <body>
+    <h1>CatPhotoApp</h1>
+    <h3>Cat Photos</h3>
+    <p>Everyone loves <a href="">cute cats</a> online!</p>
+    <p>See more <a href="">cat photos</a> in out gallery.</p>
+    <img
+      src="https://i.pinimg.com/736x/41/ac/0a/41ac0a2ac508fefae8f16ff9d7545e63.jpg"
+      alt=""
+    />
+    <h3>Cat Lists</h3>
+    <h2>Thing cats love:</h2>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <blockquote>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lasagna_%281%29.jpg/1106px-Lasagna_%281%29.jpg?20120324014617"
+        height="250"
+      />
+    </blockquote>
+    <blockquote>Cats <i>love</i> lasagna</blockquote>
+    <h2>Top 3 things cats hate:</h2>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+    <blockquote>
+      <img
+        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR9YGVvlhvWykHWxYC9gmD22pp8hcZRHb71u02Ch35W4YCOdNju"
+      />
+    </blockquote>
+    <blockquote>Cats <b>hate</b> other cats.</blockquote>
+    <h3>Cat Breed</h3>
+    <table border="1">
+      <tr>
+        <th>Breed</th>
+        <th>Location of origin</th>
+        <th>Type</th>
+        <th>Body type</th>
+        <th>Coat type and length</th>
+        <th>Coat pattern</th>
+        <th>Image</th>
+      </tr>
+      <tr>
+        <td><a href="">Abyssinian <sup>[8]</sup></a></td>
+        <td>Unspecified, but somewhere in Afro-Asia, likely <a href="">Ethiopia</a><sup>[9]</sup></td>
+        <td>Natural</td>
+        <td>Semi-foreign</td>
+        <td>Short</td>
+        <td>Ticked tabby</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/150px-Gustav_chocolate.jpg" alt="" width="150" height="200"></td>
+      </tr>
+      <tr>
+        <td><a href="">Aegean</a></td>
+        <td>Greece</td>
+        <td>Natural</td>
+        <td>Moderate</td>
+        <td>Semi-long</td>
+        <td>Multi-color</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_PBhcr3tdxPCYG3MotVIh0dD16gMKWjcCKN2UTgeFPr34K-f" alt="" width="150" height="200"></td>
+      </tr>
+      <tr>
+        <td><a href="">American-Bobtail</a><sup>[10]</sup></td>
+        <td>United States <sup>[11]</sup></td>
+        <td>Mutation of shortened tail</td>
+        <td>Cobby</td>
+        <td>Semi-long</td>
+        <td>All</td>
+        <td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQSTC83ITw8pSJ2VtCAi8kASSTeHdsy65N7IjrSLsNw122xhVcS" alt="" width="150" height="200"></td>
+      </tr>
+      <tr>
+        <td><a href="">American Curl</a><sup>[12]</sup></td>
+        <td>United States <sup>[11]</sup></td>
+        <td>Mutation</td>
+        <td>Semi-foreign</td>
+        <td>Semi-long</td>
+        <td>All</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/EC_Recknagel_Annakurnikoova_ACS_gs_24.JPG/150px-EC_Recknagel_Annakurnikoova_ACS_gs_24.JPG" alt="" width="150" height="200"></td>
+      </tr>
+      <tr>
+        <td><a href="">American Ringtail</a></td>
+        <td>United States <sup>[11]</sup></td>
+        <td>Mutation</td>
+        <td>Foreign</td>
+        <td>Semi-long</td>
+        <td>All</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chunky_Monkey_American_Ringtail_Cat_3rd_Generation.jpg/150px-Chunky_Monkey_American_Ringtail_Cat_3rd_Generation.jpg" alt="" width="150" height="200"></td>
+      </tr>
+    </table>
+    <h3>Cat From</h3>
+    <fieldset>
+        <legend><label for="qa">Is your cat an indoor or outdoor cat?</label></legend>
+        <div>
+            <input type="radio" name="indoor">
+            <label for="indoor">Indoor</label>
+            <input type="radio" name="outdoor">
+            <label for="outdoor">Outdoor</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend><label for="qa">What's your cat's personality?</label></legend>
+        <div>
+            <input type="checkbox" name="Loving" id="Loving">
+            <label for="Loving">Loving</label>
+            <input type="checkbox" name="Lazy">
+            <label for="Lazy">Lazy</label>
+            <input type="checkbox" name="Energetic">
+            <label for="Energetic">Energetic</label>
+        </div>
+    </fieldset>
+    <input type="search" name="search" placeholder="cat photo URL">
+    <button>Submit</button>
+    <p>No Copyright - <a href="">rikkei.edu.vn</a></p>
+  </body>
 </html>

@@ -6,34 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <table>
-            <tr>
-                <td><label for="firstname">First Name</label></td>
-                <td><input type="text" name="firstname"></td>
-            </tr>
-            <tr>
-                <td><label for="lastname">Last Name</label></td>
-                <td><input type="text" name="lastname"></td>
-            </tr>
-            <tr>
-                <td><label for="country">Country</label></td>
-                <td><select name="country" id="">
-                    <option value="usa">USA</option>
-                    <option value="vn">VietNam</option>
-                    <option value="uk">UK</option>
-                    <option value="france">France</option>
-                    <option value="kr">Korea</option>
-                </select></td>
-            </tr>
-            <tr>
-                <td><label for="subject">Subject</label></td>
-                <td><textarea name="subject" id=""></textarea></td>
-            </tr>
-            <tr>
-                <td><button >Submit</button></td>
-            </tr>
-        </table>
+    <h1>Tìm Kiếm Sản Phẩm</h1>
+    <label for="keyword">Từ khóa tìm kiếm:</label>
+    <br />
+    <input type="search" name="keyword">
+    <br />
+    <label for="producttype">Loại sản phẩm:</label>
+    <br />
+    <select name="producttype" id="producttype">
+        <option value="dt">Điện tử</option>
+        <option value="food">Thực phẩm</option>
+        <option value="vd">Vật dụng gia đình</option>
+        <option value="mp">Mỹ phẩm</option>
+        <option value="qh">Quần áo</option>
+    </select>
+    <br />
+    <br />
+    <button>Tìm kiếm</button>
     </form>
 </body>
 </html>

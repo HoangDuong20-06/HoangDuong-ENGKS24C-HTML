@@ -1,0 +1,25 @@
+#fieldset {
+    text-align: center;
+    border: 5px solid green;
+}
+button {
+    color: white;
+    background-color: green;
+    border: 0;
+    border-radius: 5px;
+}
+#fieldset1 {
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: 0;
+}
+#fieldset2 {
+    background-color: white;
+    border-left: 5px solid green;
+}
+button {
+    padding: 15px 30px;
+}
+* {
+    font-family: Helvetica;
+}

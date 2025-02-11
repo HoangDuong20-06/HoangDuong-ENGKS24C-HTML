@@ -1,0 +1,10 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    color: cadetblue;
+}
+table {
+    background-color: bisque;
+    border-left: 5px solid gold;
+}

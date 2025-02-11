@@ -1,0 +1,12 @@
+p {
+    color: springgreen;
+    text-decoration: underline dotted aqua;
+    font-family: Helvetica;
+}
+* {
+    background-color: black;
+}
+h1 {
+    color: white;
+    font-family: Helvetica;
+}   

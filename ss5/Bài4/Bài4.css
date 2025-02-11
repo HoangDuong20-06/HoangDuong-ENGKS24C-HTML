@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+}
+#ID {
+    background-color: deepskyblue;
+    color: white;
+}
+body {
+    text-align: center;
+    background-color: gainsboro;
+    
+}
+h1 {
+    font-family: Helvetica;
+}
+#ID2 {
+    background-color: white;
+}

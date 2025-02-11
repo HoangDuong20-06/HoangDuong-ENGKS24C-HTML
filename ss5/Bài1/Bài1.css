@@ -1,0 +1,16 @@
+h1 {
+    background-color:bisque;
+    color: blue;
+}
+#Item1 {
+    color: red;
+    font-size: medium;
+}
+#Item2 {
+    color: green;
+    font-size: x-large;
+}
+#Item3 {
+    color: blue;
+    font-size: xx-large;
+}

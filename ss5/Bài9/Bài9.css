@@ -1,0 +1,21 @@
+hr {
+    border: none;
+    border-top:3px dashed #cccccc;
+}
+.a1 {
+    color: #8a83a2;
+}
+img{
+    border-radius: 10px;
+}
+a {
+    color: #231751;
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: large;
+    font-weight: 700;
+}
+.line {
+    border-left: 2px solid #cccccc; 
+    padding: 5px;
+}

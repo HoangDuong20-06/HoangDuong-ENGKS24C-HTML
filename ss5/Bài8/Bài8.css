@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: gainsboro;
+}
+table {
+    width: 100%;
+}
+th {
+    background-color: #027bff;
+    color: white;
+}
+button {
+    border: 0;
+    padding: 10px 12px;
+    
+}
+#view {
+    background-color: green;
+    color: white;
+}
+#update {
+    background-color: orange;
+}
+#delete {
+    background-color: red;
+    color: white;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}

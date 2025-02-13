@@ -1,0 +1,16 @@
+body {
+    background-color: #f0eef3;
+    font-family: calibri;
+}
+h3 {
+    color: #bc2229;
+}
+p {
+    color: #231751;
+}
+.boder1 {  
+    border-radius: 10px;
+}
+table {
+    border-radius: 10px;
+}

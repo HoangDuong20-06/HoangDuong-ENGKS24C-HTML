@@ -1,0 +1,31 @@
+h1 {
+    font-family: Calibri;
+    color: #231751;
+}
+table {
+    font-family: calibri;
+    color: #231751;
+    font-size: large;
+    padding: 5px;
+}
+.bt1 {
+    border: 0;
+    background-color: #bc2229;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: calibri;
+}
+.bt2 {
+    border: 1px;
+    border-style: groove;
+    border-color: #c1bcd1;
+    background-color: #eaeaea;
+    color: #231751;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: calibri;
+}
+body {
+    background-color: #eaeaea;
+}

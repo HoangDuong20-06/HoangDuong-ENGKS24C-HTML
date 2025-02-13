@@ -1,0 +1,51 @@
+body {
+    font-family: arial, sans-serif;
+}
+.box {
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 0px;
+}
+.title {
+    
+    background: #ed1a35;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.hot {
+    position: absolute;
+    left: 200px;
+    top: -10px
+}
+span {
+    color: #ff8c00;
+}
+.table {
+    border-bottom: 1px solid red;
+}
+.bt1 {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #e81935;
+    color: white;
+}
+.bt2 {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: #e81935;
+    padding: 5px;
+    line-height: 10px;
+    border: 1;
+    border-radius: 50px;
+    border-color: #e81935;
+    border-width: 1px;
+}

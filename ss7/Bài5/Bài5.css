@@ -10,7 +10,6 @@ body {
     padding: 0px;
 }
 .title {
-    
     background: #ed1a35;
     color: white;
     padding: 10px;
@@ -26,7 +25,7 @@ span {
     color: #ff8c00;
 }
 .table {
-    border-bottom: 1px solid red;
+    border: 1px solid red;
 }
 .bt1 {
     width: 200px;

@@ -24,8 +24,11 @@ body {
 span {
     color: #ff8c00;
 }
-.table {
-    border: 1px solid red;
+.table p{
+    margin: 1px;
+    width: 90%;
+    border-bottom: 1px solid red;
+    margin-left: 10px;
 }
 .bt1 {
     width: 200px;

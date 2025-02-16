@@ -16,6 +16,8 @@ textarea{
     width: 515px;
     height: 100px;
     margin-bottom: 10px;
+    background: #4c3e5d;
+    border: 1px solid white;
 }
 button{
     background-color: white;
@@ -29,4 +31,8 @@ button{
 }
 table{
     margin-bottom: 10px;
+}
+input {
+    background: #4c3e5d;
+    border: 1px solid white;
 }

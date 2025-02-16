@@ -1,0 +1,49 @@
+* {
+    font-family: calibri;
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.project-mosquito {
+    width: 400px;
+    border: 1px solid #e3e5ec;
+    border-radius: 10px;
+    padding: 30px;
+}
+.project-mosquito h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.project-mosquito button{
+    background-color: #ffeeca;
+    color: #bd3803;
+    border: 2px solid #ffcc85;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding: 3px 10px;
+}
+.progress-title{
+    position: relative;
+}
+.progress-title .percent {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.project-mosquito ul li{
+    text-decoration: none;
+}
+.progress-bar{
+    background-color: #ffeeca;
+    height: 6px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    width: 76%;
+    background-color: #e57809;
+    height: 6px;
+    border-radius: 5px;
+}

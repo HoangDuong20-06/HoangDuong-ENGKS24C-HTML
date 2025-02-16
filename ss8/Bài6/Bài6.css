@@ -1,0 +1,39 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d2d2d;
+    font-size: 20px;
+}
+div{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    width: 700px;
+    position: relative;
+}
+body{
+    background-color: gray;
+}
+img{
+    width: 30px;
+    height: 40px;
+}
+.mic{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    right: 50px;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+input{
+    border: none;
+    width: 85%;
+    height: 30px;
+}

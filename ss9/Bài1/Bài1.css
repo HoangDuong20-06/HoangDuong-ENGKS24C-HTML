@@ -1,0 +1,26 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div {
+    border: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: #f0f0f0;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    border: none;
+    background-color: #3498db;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

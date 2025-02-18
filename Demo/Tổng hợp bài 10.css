@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    font-family: calibri;
+}
+h1 {
+    color: black;
+}
+.container :nth-child(1).child{
+    background-color: pink;
+}
+.row {
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+.row .child{
+    background-color: pink;
+    width: calc(300px);
+}
+.container {
+    margin-bottom: 20px;
+}
+.blog-container {
+    height: 200px;
+    background-image: url(assets/pexels-francesco-ungaro-2325503.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.blog-container .title{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

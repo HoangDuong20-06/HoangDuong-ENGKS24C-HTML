@@ -1,0 +1,62 @@
+img{
+    filter: brightness(10%);
+}
+.img{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 5, 0.5);
+    border: 1px solid white;
+}
+.content{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+.date{
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 20px;
+}
+.title{
+    color: #fff;
+    font-size: 30px;
+    width: 70%;
+}
+.description{
+    color: gray;
+    font-size: 20px;
+    width: 65%;
+    padding-top: 20px;
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: gray;
+}
+button{
+    padding: 10px 10px;
+    background-color: #fff;
+    border: 0;
+}
+.active{
+   background-color: black;
+   color: #fff;
+   border-radius: 100%;
+}
+.active2{
+    background-color: black;
+    color: #fff;
+ }
+ .active3{
+    background-color: gray;
+    color: #fff;
+ }

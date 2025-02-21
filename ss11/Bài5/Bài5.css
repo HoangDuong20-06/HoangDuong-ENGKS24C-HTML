@@ -32,12 +32,14 @@
     margin-right: 10px;
     width: 100%;
     height: 300px;
+    flex: 2;
   }
   .ma aside {
     background-color: #9f4a4b;
     color: white;
     width: 100%;
     height: 300px;
+    flex: 1;
   }
   .colum1 {
     display: flex;
@@ -63,10 +65,10 @@
         flex-direction: column;
     }
     .ma main {
-        width: 100%;
+        flex: 2;
     }
     .ma aside {
-        width: 100%;
+        flex-grow: 1;
     }
     .colum1 {
         flex-wrap: wrap;

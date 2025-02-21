@@ -27,19 +27,19 @@
     background-color: #f5cf8d;
     color: #7d8c9d;
     height: 170px;
-    width: calc(40% - 100px)
+    width: 33%
   }
   .child2 {
     background-color: #c8c6fa;
     color: #7d8c9d;
     height: 170px;
-    width: calc(40% - 100px)
+    width: 34%
   }
   .child3 {
     background-color: #f09a9d;
     color: #7d8c9d;
     height: 170px;
-    width: calc(43% - 100px)
+    width: 33%
   }
   .main2 {
     background-color: #d7e9fe;

@@ -1,0 +1,275 @@
+:root {
+    --font--text: #21243D;
+    --navbar--text: #000000;
+}
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: calibri;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    gap: 20px;
+    font-family: calibri;
+}
+nav {
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ul1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+    font-family: calibri
+}
+.list1 {
+    list-style: none;
+}
+.list1 a{
+    text-decoration: none;
+    color: #000000;
+}
+.body1 {
+    background-color: #EDF7FA;
+    width: 100%;
+    padding: 5px 50px;
+}
+.ul2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: var(--text--font);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.list2 {
+    list-style: none;
+}
+.list2a {
+    list-style: none;
+}
+.list2a a{
+    text-decoration: none;
+    color: #00A8CC;
+    font-size: 15px;
+}
+.user {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: -4px 7px 5px 0px rgba(0,0,0,0.17);
+    -webkit-box-shadow: -4px 7px 5px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: -4px 7px 5px 0px rgba(0,0,0,0.17);
+    margin-left: 50px;
+}
+.icon-menu {
+    display: none;
+}
+button {
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #FF6464;
+}
+.main2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.doc1 {
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    background-color: white;
+    gap: 20px;
+    width: 60%;
+    padding: 20px;
+}
+.doc2 {
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    background-color: white;
+    gap: 20px;
+    width: 60%;
+    padding: 20px;
+}
+.doc1 h3{
+    font-size: 35px;
+}
+.doc2 h3 {
+    font-size: 35px;
+}
+.end {
+    font-size: 30px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    color: #21243D;
+}
+.text-end {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.bt-end {
+    background-color: #142850;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.head3 {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.main3 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.tb1 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #E0E0E0;
+}
+.tb1 img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.intb1 h3{
+    font-size: 30px;
+}
+.tb2 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #E0E0E0;
+}
+.tb2 img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.intb2 h3{
+    font-size: 30px;
+}
+.tb3 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #E0E0E0;
+    margin-bottom: 100px;
+}
+.tb3 img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.intb3 h3{
+    font-size: 30px;
+}
+.bt-sp {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+span {
+    color: #8695A4;
+}
+footer {
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+@media screen and (max-width:468px) {
+    header {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .head {
+        text-align: center;
+        width: 63%;
+        position: relative;
+        left: 60px;
+    }
+    .user {
+        position: relative;
+        left: 45px;
+    }
+    .list1 {
+        display: none;
+    }
+    .icon-menu {
+        display: block;
+    }
+    .main1 .h1 {
+        order: 1;
+    }
+    .main1 .text {
+        order: 2;
+    }
+    .main1 .button {
+        order: 3;
+    }
+    .body1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .list2a {
+        display: none;
+    }
+    .list2 {
+        position: relative;
+        left: 40px;
+    }
+    .main2 {
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .main2 .doc1 {
+        order: 1;
+        width: 100%;    
+    }
+    .main2 .doc2 {
+        order: 2;
+        width: 100%;
+    }
+    .tb2 {
+        display: none;
+    }
+    .tb3 {
+        display: none;
+    }
+    .tb1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .head3 {
+        position: relative;
+        left: 40px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,10 @@
+let radios = Number(prompt("Nhập bán kính:"));
+const pi = 3.1416;
+let tt = ((4/3)*pi*(radios*3)).toFixed(2);
+document.write("Thể tích hình cầu bằng:"+tt);
+document.write("<br>");
+let smc = (4*pi*(radios*2)).toFixed(2);
+document.write("Diện tích mặt cầu bằng:"+smc);
+document.write("<br>");
+let cvln = (2*pi*radios).toFixed(2);
+document.write("Chu vi lớn nhất của hình cầu bằng:"+cvln);

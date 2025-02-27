@@ -1,0 +1,14 @@
+let radios = Number(prompt("Nhập bàn kính:"));
+let heigh = Number(prompt("Nhập chiều cao:"));
+const pi = 3.1416;
+let sxq = (2*pi*radios*heigh).toFixed(2);
+document.write("Diện tích xung quanh hình trụ bằng:"+sxq);
+document.write("<br>");
+let stp = (2*pi*radios*heigh + 2*pi*(radios*2)).toFixed(2);
+document.write("Diện tích toàn phần hình trụ bằng:"+stp);
+document.write("<br>");
+let tt = (pi*(radios*2)*heigh).toFixed(2);
+document.write("Thể tích hình trụ bằng:"+tt);
+document.write("<br>");
+let cvd = (2*pi*radios).toFixed(2);
+document.write("Chu vi đáy hình trụ bằng:"+cvd);

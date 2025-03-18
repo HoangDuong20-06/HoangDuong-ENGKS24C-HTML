@@ -117,10 +117,10 @@ function buyProduct(){
         console.log("Không tìm thấy sản phẩm!");
     } else {
         let carts = +prompt("Nhập vào số lượng sản phẩm muốn mua: ");
-        if(result.quantity < cart|| result.quantity==0){
+        if(result.quantity < carts|| result.quantity==0){
             console.log("Sản phẩm trong cửa hàng ko đủ");
         }else{
-            result.quantity-=cart;
+            result.quantity-=carts;
             cart.push({
                 id:result.id,
                 name:result.name,

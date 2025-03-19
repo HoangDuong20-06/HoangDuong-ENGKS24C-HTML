@@ -1,0 +1,15 @@
+#modalEdit{
+    display: none;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+#closeButton{
+    position: absolute;
+    right: 20px;
+}

@@ -1,0 +1,11 @@
+#login{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+button{
+    width: 50px;
+}

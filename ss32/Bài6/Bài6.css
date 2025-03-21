@@ -1,0 +1,24 @@
+#container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+#plus{
+    background-color: #4caf50;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+#minus{
+    background-color: #f44336;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 12px;
+    color: #ffffff;
+}

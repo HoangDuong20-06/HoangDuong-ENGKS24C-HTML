@@ -1,0 +1,19 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    gap:10px;
+}
+#button{
+    width: 60px;
+}
+#true{
+    display: none;
+    color: rgb(0, 201, 0);
+}
+#false{
+    display: none;
+    color: red;
+}

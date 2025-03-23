@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: #f0f8ff;
+}
+h1{
+    color: #0066cc;
+}
+input{
+    width: 500px;
+    height: 40px;
+}
+button{
+    background-color: #0066cc;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;  
+}
+.search{
+    margin-bottom: 20px;
+}
+#weather{
+    background-color: white;
+    padding: 5px 10px;
+    width: 500px;
+    margin:auto;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;    
+    justify-content: space-evenly;
+}
+h2{
+    text-align: left;
+}
+span{
+    font-size: 60px;
+}
+.parameter{
+    text-align: left;
+    font-size: 20px;
+}

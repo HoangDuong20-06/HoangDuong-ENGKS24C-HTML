@@ -1,0 +1,14 @@
+#pass{
+    width: 300px;
+    padding: 10px;
+}
+#show{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+#hide{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}

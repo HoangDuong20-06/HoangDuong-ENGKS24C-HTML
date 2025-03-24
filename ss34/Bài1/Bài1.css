@@ -1,0 +1,28 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px 25px;
+}
+h1{
+    text-align: center;
+}
+.form-container #button{
+    background-color: #007bff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px;
+    color: white;
+}
+input{
+    height: 25px;
+}

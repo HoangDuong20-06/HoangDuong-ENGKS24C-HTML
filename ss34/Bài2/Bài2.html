@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bài2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management</h1>
+        <div class="submit">
+            <input type="text" id="content" placeholder="Content">
+                <input type="date" id="date">
+                <select id="status">
+                    <option>Choose status</option>
+                    <option>Pending</option>
+                    <option>In Progress</option>
+                </select>
+                <input type="text" id="username" placeholder="Username">
+                <button id="button">Submit</button> 
+        </div>
+        <table id="employeeTable" border="1">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Content</th>
+                    <th>Due date</th>
+                    <th>Status</th>
+                    <th>Assigned to</th>
+                    <th>Action</th>             
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+    <script src="Bài2.js"></script>
+</body>
+</html>

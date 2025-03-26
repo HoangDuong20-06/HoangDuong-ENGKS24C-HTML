@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#buttonMain{
+    height: 30px;
+    background-color: #4094f7;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.nav2{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+#status{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+#txt{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 220px;
+}
+#icon{
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+table {
+    width: 100%;
+    border: none;
+    border-spacing: 0;
+    font-size: 14px;
+    text-align: left;
+    background-color: #f9fafb;
+    margin-top: 10px;
+}
+th, td {
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+th{
+    color: #6a7488;
+}
+#bodyAdd{
+    display: none;
+}
+#closeMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#nameCate{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#nameCates{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.radio{
+    height: 0px;
+}
+#bodyAdd{
+    border: 1px solid black;
+    width: 500px;
+    padding: 15px;
+    border-radius: 5px;
+    position: fixed;
+    top: 100px;
+    left: 370px;
+    background-color: white;
+}
+
+#buttonpos{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+#buttonAdd{
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60px;
+}
+#buttonCancel{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width: 60px;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    font-family: calibri;
+}
+h3{
+    font-size: x-large;
+    margin-top: 0px;
+}
+i{
+    margin-right: 30px;
+}

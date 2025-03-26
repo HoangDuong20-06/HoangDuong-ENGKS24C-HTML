@@ -1,0 +1,45 @@
+h2 {
+    text-align: center;
+}
+#container {
+    width: 400px;
+    margin: auto;
+}
+input {
+    width: 250px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+#buttonAdd {
+    height: 30px;
+    padding: 0 10px;
+}
+.task {
+    list-style: none;
+    background: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    position: relative;
+    width: 350px;
+}
+ul li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#update {
+    position: absolute;
+    top: 50%;
+    right: 50px; 
+    padding: 3px 8px;
+}
+
+#close {
+    position: absolute;
+    top: 50%;
+    right: 5px; 
+    padding: 3px 8px;
+}

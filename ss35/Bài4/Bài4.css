@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+.container-form {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+input {
+    height: 25px;
+    padding: 5px;
+}
+table {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #dddddd;
+    color: white;
+}
+.pagination {
+    margin-top: 10px;
+}
+.pagination button {
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: white;
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 3px;
+}
+.pagination button.active {
+    background-color: rgb(13, 150, 241);
+    border: 1px solid #007bff;
+    color: white;
+    border-radius: 3px;
+}

@@ -1,0 +1,50 @@
+body{
+    font-family: calibri;
+    background-color: #f4f6f8;
+}
+#menu1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    justify-self: center;
+    justify-items: center;
+}
+#saveButton{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+}
+#name{
+    height: 27px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+#menu2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    justify-self: center;
+    justify-items: center;
+}
+#changeButton{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    margin-left: 10px;
+}

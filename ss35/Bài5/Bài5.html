@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bài5.css">
+    <script src="https://kit.fontawesome.com/0c1f5dacbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav1">
+        <h3>Danh mục</h3>
+        <button id="buttonMain">Thêm mới danh mục</button>
+    </div>
+    <div class="nav2">
+        <select name="select" id="status">
+            <option value="on">Đang hoạt động</option>
+            <option value="off">Ngừng hoạt động</option>
+        </select>
+        <input type="text" id="txt" placeholder="Tìm kiếm danh mục theo tên">
+        <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+    </div>
+    <table id="employeeTable" border="1">
+        <thead>
+            <tr>
+                <th>Mã danh mục <i class="fa-solid fa-arrow-down"></i></th>
+                <th>Tên danh mục <i class="fa-solid fa-arrow-down"></i></th>
+                <th>Trạng thái</th>
+                <th>Chức năng</th>           
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+    <div id="bodyAdd">
+        <div  id="closeButton">
+            <div class="title">
+                <h3>Thêm danh mục</h3>
+                <div id="close">X</div>
+            </div>
+            <div id="closeMenu">
+                <label for="Mã danh mục">Mã danh mục:</label>
+                <input type="text" id="nameCate">
+                <label for="name">Tên danh mục:</label>
+                <input type="text" id="nameCates">
+                <label for="status">Trạng thái:</label>
+                <div class="raido">
+                    <input type="radio" value="active">Đang hoạt động</input>
+                    <input type="radio" value="inactive">Ngừng hoạt động</input>
+                </div>
+                <hr>
+                <div id="buttonpos">
+                    <button id="buttonCancel">Hủy</button>
+                    <button id="buttonAdd">Thêm</button>
+                </div>
+           </div>
+        </div>
+    </div>
+    <script src="Bài5.js"></script>
+</body>
+</html>

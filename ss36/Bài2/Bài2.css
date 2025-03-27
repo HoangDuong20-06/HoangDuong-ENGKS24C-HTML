@@ -1,0 +1,73 @@
+body{
+    font-family: calibri;
+    background-color: #fafafa;
+}
+h1{
+    text-align: center;
+}
+#dish1{
+    display: flex;
+    flex-direction: row ;
+    gap: 20px;
+    border: none;
+    width: 300px;
+    justify-content: center ;
+    justify-self: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+}
+img{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#infordish1{
+    line-height: 10px;
+}
+.likeButton{
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+#dish2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row ;
+    gap: 20px;
+    border: none;
+    width: 300px;
+    justify-content: center ;
+    justify-self: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+}
+#dish3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row ;
+    gap: 20px;
+    border: none;
+    width: 300px;
+    justify-content: center ;
+    justify-self: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 1px 5px 6px rgba(0,0,0,0.1);
+}
+#infordish2{
+    line-height: 10px;
+}
+#infordish3{
+    line-height: 10px;
+}

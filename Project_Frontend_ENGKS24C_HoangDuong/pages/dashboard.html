@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Project_Frontend_ENGKS24C_HoangDuong/css/dashboard.css">
+</head>
+<body>
+    <div id="nav">
+        <h3>Quản lý dự án</h3>
+        <div id="link">
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/dashboard.html">Dự án</a>
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/product-manager.html">Nhiệm vụ của tôi</a>
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/login.html">Đăng xuất</a>
+        </div>
+    </div>
+    <div id="mainBoard">
+        <h2>Quản Lý Dự Án Nhóm</h2>
+        <div id="secondMain">
+            <button id="addButton">+ Thêm dự án</button>
+            <input type="search" name="project" id="findProject" placeholder="Tìm kiếm dự án">
+        </div>
+        <h3>Danh Sách Dự Án</h3>
+        <table >
+            <thead>
+                <tr>
+                    <th class="ID">ID</th>
+                    <th>Tên Dự Án</th>
+                    <th class="hd">Hành Động</th>
+                </tr>
+            </thead>
+            <tbody id="taskList">
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="pagination" id="pagination">
+    </div>
+    <div id="editModal" class="modal">
+        <div class="modalContent">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Thêm/sửa dự án</h2>
+            <label for="projectName">Tên dự án</label>
+            <input type="text" id="projectName" placeholder="Nhập tên dự án">
+            <p id="errorName" class="error"></p>
+            <label for="projectDesc">Mô tả dự án</label>
+            <textarea id="projectDesc" placeholder="Nhập mô tả dự án"></textarea>
+            <p id="errorDescri" class="error"></p>
+            <div class="modalButtons">
+                <button class="cancelButton" id="cancelButton">Huỷ</button>
+                <button class="saveButton" id="saveButton">Lưu</button>
+            </div>
+        </div>
+    </div>
+    <div class="backgroundPopup" id="background">
+    <div id="confirmPopup" class="popup">
+        <div class="popupContent">
+          <span class="close" id="closepopup">&times;</span>
+          <h2>Xác nhận xóa</h2>
+          <p>Bạn chắc chắn muốn xóa dự án này?</p>
+          <div id="buttonPop">
+            <button id="cancelBtn">Hủy</button>
+            <button id="confirmDeleteBtn">Xóa</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<footer>
+    <p>&copy; 2025 Team management. All rights reserved.</p>
+</footer>
+<script src="/Project_Frontend_ENGKS24C_HoangDuong/js/dashboard.js"></script>
+</body>
+</html>

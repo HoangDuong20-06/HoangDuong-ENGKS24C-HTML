@@ -1,68 +1,77 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    margin: 20px;
-  }
-  
-  .product {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    width: 400px;
-  }
-  
-  .stars {
-    font-size: 30px;
-    cursor: pointer;
-    color: #ddd;
-  }
-  
-  .stars.active,
-  .stars:hover {
-    color: gold;
-  }
-  
-  .comment-section {
-    margin-top: 20px;
-    text-align: left;
-  }
-  
-  .comment-box {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-  }
-  
-  .comment-list {
-    margin-top: 10px;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .comment-list li {
-    background: #fff;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .comment-list span {
-    font-weight: bold;
-    color: gold;
-  }
-  img {
-    width: 100%;
-    margin: 15px 0;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px; /* Giữ chiều rộng cố định */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-height: 90vh; /* Chiều cao tối đa bằng 90% màn hình */
+  overflow-y: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;  /* Tất cả các input và select sẽ có cùng độ rộng */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Giúp padding không làm thay đổi kích thước */
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.cancel {
+  background: gray;
+  color: white;
+}
+
+.save {
+  background: blue;
+  color: white;
+}

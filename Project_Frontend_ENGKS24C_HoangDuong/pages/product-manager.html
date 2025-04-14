@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Project_Frontend_ENGKS24C_HoangDuong/css/product-manager.css">
+    <script src="https://kit.fontawesome.com/0c1f5dacbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="nav">
+        <h3>Quản lý dự án</h3>
+        <div id="link">
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/dashboard.html">Dự án</a>
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/product-manager.html">Nhiệm vụ của tôi</a>
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/login.html">Đăng xuất</a>
+        </div>
+    </div>
+    <div id="mainbody">
+        <div id="first">
+            <h2>Quản lý nhiệm vụ</h2>
+        </div>
+        <div class="second2">
+            <div>
+            <select name="" id="select">
+                <option value="" selected disabled >Sắp xếp theo</option>
+                <option value="">Tiến độ</option>
+                <option value="">Ưu tiên</option>
+            </select>
+            <input type="text" name="mission" id="findMision" placeholder="Tìm kiếm nhiệm vụ">
+        </div>
+        </div>
+        <div class="task-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Tên Nhiệm Vụ</th>
+                <th>Độ ưu tiên</th>
+                <th>Trạng thái</th>
+                <th>Ngày Bắt Đầu</th>
+                <th>Hạn Chót</th>
+                <th>Tiến độ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Nhóm Dự Án 1 -->
+              <tr class="project-row">
+                <td colspan="6"><strong>▾ Xây dựng website thương mại điện tử</strong></td>
+              </tr>
+              <tr>
+                <td>Soạn thảo đề cương dự án</td>
+                <td><span class="badge low">Thấp</span></td>
+                <td>In progress <i class="icon-link"></i></td>
+                <td>02 - 24</td>
+                <td>02 - 27</td>
+                <td><span class="badge progress">Đang tiến độ</span></td>
+              </tr>
+              <tr>
+                <td>Soạn thảo đề cương dự án</td>
+                <td><span class="badge medium">Trung bình</span></td>
+                <td>In progress <i class="icon-link"></i></td>
+                <td>02 - 24</td>
+                <td>02 - 27</td>
+                <td><span class="badge warning">Có rủi ro</span></td>
+              </tr>
+              <tr>
+                <td>Soạn thảo đề cương dự án</td>
+                <td><span class="badge high">Cao</span></td>
+                <td>Pending <i class="icon-link"></i></td>
+                <td>02 - 24</td>
+                <td>02 - 27</td>
+                <td><span class="badge danger">Trễ hạn</span></td>
+              </tr>
+        
+              <!-- Nhóm Dự Án 2 -->
+              <tr class="project-row">
+                <td colspan="6"><strong>▾ Phát triển ứng dụng di động</strong></td>
+              </tr>
+              <tr>
+                <td>Lên lịch họp kickoff</td>
+                <td><span class="badge low">Thấp</span></td>
+                <td>In progress <i class="icon-link"></i></td>
+                <td>02 - 24</td>
+                <td>02 - 27</td>
+                <td><span class="badge warning">Có rủi ro</span></td>
+              </tr>
+        
+              <!-- Nhóm Dự Án 3 -->
+              <tr class="project-row">
+                <td colspan="6"><strong>▸ Quản lý dữ liệu khách hàng</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Team management. All rights reserved.</p>
+    </footer>
+    <script src="/Project_Frontend_ENGKS24C_HoangDuong/js/category-manager.js"></script>
+</body>
+</html>

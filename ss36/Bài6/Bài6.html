@@ -7,33 +7,47 @@
     <link rel="stylesheet" href="Bài6.css" />
   </head>
   <body>
-    <div class="product">
-      <h2>Sản phẩm: Tai nghe Bluetooth</h2>
-      <img
-        src="https://imgs.search.brave.com/JRPdDRzOPxD2puv-eXZx8AiHMt7ySnUVRZs4uCbu7CI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/NDk2NjY4Ni9waG90/by9iZWlqaW5nLWNo/aW5hLWFpcnBvZHMt/bWF4LWlzLXNlZW4t/YXQtYW4tYXBwbGUt/c3RvcmUtb24tamFu/dWFyeS0yLTIwMjEt/aW4tYmVpamluZy1j/aGluYS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9aXlyd0Np/TkJ6UW9jZzdUTHEt/LTNpNGM5dXpiTkda/NHprOW4tdUwwRWtk/Zz0"
-        alt=""
-      />
-      <p>Đánh giá sản phẩm:</p>
-      <div id="rating">
-        <span class="stars" data-value="1">★</span>
-        <span class="stars" data-value="2">★</span>
-        <span class="stars" data-value="3">★</span>
-        <span class="stars" data-value="4">★</span>
-        <span class="stars" data-value="5">★</span>
-      </div>
-      <p id="selected-rating">Bạn chưa đánh giá.</p>
+    <div class="modal">
+      <div class="modal-content">
+          <h2>Thêm/sửa nhiệm vụ</h2>
+          <form id="task-form">
+              <label for="task-name">Tên nhiệm vụ</label>
+              <input type="text" id="task-name" placeholder="Nhập tên nhiệm vụ" required>
+              <small class="error-message">Tên nhiệm vụ đã tồn tại</small>
 
-      <!-- Bình luận -->
-      <div class="comment-section">
-        <h3>Bình luận</h3>
-        <textarea id="comment-input" class="comment-box" placeholder="Nhập bình luận..."></textarea>
-        <button onclick="submitReview()">Gửi</button>
-        <ul id="comment-list" class="comment-list">
-          <!-- sử dụng thẻ li và bên trong là thẻ span chứa sao và thẻ b chưa nội dung đánh giá -->
-          <!-- <li> <span>★★★★★<span> <b>Hay qué</b> </li> -->
-        </ul>
+              <label for="assignee">Người phụ trách</label>
+              <select id="assignee">
+                  <option value="">Chọn người phụ trách</option>
+              </select>
+
+              <label for="status">Trạng thái</label>
+              <select id="status">
+                  <option value="">Chọn trạng thái nhiệm vụ</option>
+              </select>
+
+              <label for="start-date">Ngày bắt đầu</label>
+              <input type="date" id="start-date">
+
+              <label for="end-date">Hạn cuối</label>
+              <input type="date" id="end-date">
+
+              <label for="priority">Độ ưu tiên</label>
+              <select id="priority">
+                  <option value="">Chọn độ ưu tiên</option>
+              </select>
+
+              <label for="progress">Tiến độ</label>
+              <select id="progress">
+                  <option value="">Chọn tiến độ</option>
+              </select>
+
+              <div class="buttons">
+                  <button type="button" class="cancel" onclick="cancelForm()">Hủy</button>
+                  <button type="button" class="save" onclick="saveTask()">Lưu</button>
+              </div>
+          </form>
       </div>
-    </div>
+  </div>
     <script src="Bài6.js"></script>
   </body>
 </html>

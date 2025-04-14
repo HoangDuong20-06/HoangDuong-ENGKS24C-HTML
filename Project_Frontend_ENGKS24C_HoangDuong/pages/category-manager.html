@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Project_Frontend_ENGKS24C_HoangDuong/css/category-manager.css">
+</head>
+<body>
+    <div id="nav">
+        <h3>Quản lý dự án</h3>
+        <div id="link">
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/dashboard.html">Dự án</a>
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/product-manager.html">Nhiệm vụ của tôi</a>
+            <a href="/Project_Frontend_ENGKS24C_HoangDuong/pages/login.html">Đăng xuất</a>
+        </div>
+    </div>
+    <div id="mainMission">
+        <div id="first">
+        <div>
+            <h2 id="projectTitle">Xây dựng website thương mại điện tử</h2>
+        <p id="projectDescription">Dự án nhằm phát triển một nền tảng thương mại điện tử với các tính năng như giỏ hàng,<br>
+            thanh toán và quản lý sản phẩm
+        </p>
+        </div>
+        <div id="people">
+            <h3>Thành viên</h3>
+            <button id="addPeople">+ Thêm thành viên</button>
+        </div>
+        </div>
+        <div id="second">
+            <button id="addButton">+ Thêm nhiệm vụ</button>
+            <div id="two">
+            <select name="" class="select" id="selectSort" onchange="sortTasks()">
+                <option value="" selected disabled >Sắp xếp theo</option>
+                <option value="asc">Ưu tiên (thấp đến cao)</option>
+                <option value="desc">Ưu tiên (cao đến thấp)</option>
+                <option value="dueDate-asc">Hạn chót gần nhất</option>
+                <option value="dueDate-desc">Hạn chót xa nhất</option>
+            </select>
+            <input type="search" name="mission" id="findMission" placeholder="Tìm kiếm nhiệm vụ">
+        </div>
+        </div>
+    </div>
+    <div id="taskMenu"></div>
+    <div class="backgroundPopup" id="background">
+        <div id="confirmPopup" class="popup">
+            <div class="popupContent">
+              <span class="close" id="closepopup">&times;</span>
+              <h2>Xác nhận xóa</h2>
+              <p>Bạn chắc chắn muốn xóa dự án này?</p>
+              <div id="buttonPop">
+                <button id="cancelBtn">Hủy</button>
+                <button id="confirmDeleteBtn">Xóa</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" id="popupTask">
+            <div class="modal-content">
+                <h2>Thêm/sửa nhiệm vụ</h2>
+                <form id="task-form">
+                    <label for="task-name">Tên nhiệm vụ</label>
+                    <input type="text" id="task-name" placeholder="Nhập tên nhiệm vụ">
+                    <p id="errorTask" class="error"></p>
+                    <label for="assignee">Người phụ trách</label>
+                    <select id="assignee">
+                        <option value="">Chọn người phụ trách</option>
+                        <option value="Hoàng Dương">Hoàng Dương</option>
+                        <option value="Optimus">Optimus</option>
+                        <option value="Bumblebee">Bumblebee</option>
+                    </select>
+                    <p id="errorAssignee" class="error"></p>
+                    <label for="status">Trạng thái</label>
+                    <select id="status">
+                        <option value="">Chọn trạng thái nhiệm vụ</option>
+                        <option value="To do">To do</option>
+                        <option value="In Progress">In progress</option>
+                        <option value="Pending">Pending</option>
+                        <option value="Done">Done</option>
+                    </select>
+                    <p id="errorStatus" class="error"></p>
+                    <label for="start-date">Ngày bắt đầu</label>
+                    <input type="date" id="start-date">
+                    <p id="errorStart" class="error"></p>
+                    <label for="end-date">Hạn cuối</label>
+                    <input type="date" id="end-date">
+                    <p id="errorEnd" class="error"></p>
+                    <label for="priority">Độ ưu tiên</label>
+                    <select id="priority">
+                        <option value="">Chọn độ ưu tiên</option>
+                        <option value="Thấp">Thấp</option>
+                        <option value="Cao">Cao</option>
+                        <option value="Trung Bình">Trung bình</option>
+                    </select>
+                    <p id="errorPrio" class="error"></p>
+                    <label for="progress">Tiến độ</label>
+                    <select id="progress">
+                        <option value="">Chọn tiến độ</option>
+                        <option value="Đúng tiến độ">Đúng tiến độ</option>
+                        <option value="Có rủi ro">Có rủi ro</option>
+                        <option value="Trễ hạn">Trễ hạn</option>
+                    </select>
+                    <p id="errorProgress" class="error"></p>
+                    <div class="buttons">
+                        <button class="cancel" id="cancelButtons">Hủy</button>
+                        <button class="save" id="saveButtons">Lưu</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    <footer>
+        <p>&copy; 2025 Team management. All rights reserved.</p>
+    </footer>
+    <script src="/Project_Frontend_ENGKS24C_HoangDuong/js/category-manager.js"></script>
+</body>
+</html>

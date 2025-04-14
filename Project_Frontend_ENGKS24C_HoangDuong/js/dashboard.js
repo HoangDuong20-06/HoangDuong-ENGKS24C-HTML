@@ -7,22 +7,22 @@ window.onload = function () {
 let group = JSON.parse(localStorage.getItem("group")) || [
   {
     id: 1,
-    taskName: "Liên minh huyền thoại",
+    name: "Liên minh huyền thoại",
     describe: "Pc game",
   },
   {
     id: 2,
-    taskName: "Soạn thảo đề cương dự án",
+    name: "Soạn thảo đề cương dự án",
     describe: "Soạn thảo đề cương",
   },
   {
     id: 3,
-    taskName: "Quản lí dữ liệu khách hàng",
+    name: "Quản lí dữ liệu khách hàng",
     describe: "Dữ liệu khách hàng",
   },
   {
     id: 4,
-    taskName: "Phát triển ứng dụng di động",
+    name: "Phát triển ứng dụng di động",
     describe: "Phát triển ứng dụng di động",
   },
 ];
